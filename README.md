@@ -1,4 +1,4 @@
-# Desafios de Código e Lógica de Programação
+# Desafios de Código e Lógica de Programação em Linguagem C
 
 Este projeto contém uma coleção de desafios de código e lógica de programação desenvolvidos durante a disciplina de Algoritmos e Técnicas de Programação. Cada desafio representa um problema específico que requer habilidades de programação para serem resolvidos.
 
