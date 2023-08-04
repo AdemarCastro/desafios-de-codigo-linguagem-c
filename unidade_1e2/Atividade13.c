@@ -7,12 +7,18 @@ TURMA: TADS 2022/1
 *******************************************************************************/
 #include <stdio.h>
 
-int main(){
+    int main()
+{
+    int fat, n;
+    printf("Insira um valor para o qual deseja calcular seu fatorial: ");
+    scanf("%d", &n);
+
+    for(fat = 1; n > 1; n = n - 1)
+    fat = fat * n;
+
+    printf("\nFatorial calculado: %d", fat);
+
+
     
-    int i;
-    
-    for (i=1;i<11;i++){ 
-    printf("%d o dia de aula \n", i); 
-    }    
     return 0;
-}
+} 

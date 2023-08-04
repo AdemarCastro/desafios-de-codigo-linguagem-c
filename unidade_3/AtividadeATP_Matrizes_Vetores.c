@@ -1,4 +1,4 @@
-/*  Nome Autor: ADEMAR ALVES CASTRO FILHO
+/*  Nome Autor: ADEMAR
     Data: 22/06/2022
     EXERCÍCIOS DE ATP: 
     

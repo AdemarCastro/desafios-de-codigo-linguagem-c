@@ -1,23 +1,29 @@
 /******************************************************************************
 
-NOME: ADEMAR ALVES CASTRO FILHO
-MATRÍCULA: 2022002444
+NOME: ADEMAR
+MATRÍCULA: 2022******
 TURMA: TADS 2022/1
 
-2) Imprimir de 1 a 100 na tela sendo que apenas 10 números por linha.
+3) Imprimir uma matriz diagonal com "1" na diagonal principal e "0" nas outras
+posições. Considere uma matriz quadrada 2x2.
 *******************************************************************************/
 #include <stdio.h>
 
-int main(){
-    int num = 1;
-
-    printf("\n");
-
-    if (num > 0  && num < 100)
-        while (num > 0 && num < 101) {
-            printf("%4d %4d %4d %4d %4d %4d %4d %4d %4d %4d \n", num, num + 1, num + 2, num + 3, num + 4, num + 5, num + 6, num + 7, num + 8, num + 9);
-            num+=10; 
+int main()
+{
+    int i, j;
+    
+    for (i = 1; i <= 10; i++){
+        for (j = 1; j <= 10; j++)
+        {
+            if (i == j){
+                printf ("1");
+            } else {
+                printf ("0");
+            }
         }
+        printf("\n");
+    }
     
     
     return 0;

@@ -1,55 +1,64 @@
 /******************************************************************************
 
-NOME: ADEMAR ALVES CASTRO FILHO
-MATRÍCULA: 2022002444
+NOME: ADEMAR
+MATRÍCULA: 2022******
 TURMA: TADS 2022/1
 
+Atividade 18: Login e Senha.
+
 *******************************************************************************/
+
 #include <stdio.h>
 
-    int main()
+int main (void)
 {
-
-int num1, num2, n1, n2, soma = 0, i = 0;
-
-printf("Digite o primeiro numero: ");
-
-scanf(" %d", &n1);
-
-printf("Digite o segundo numero: ");
-
-scanf(" %d", &n2);
-
-if(n1 < n2){
-
-num1 = n1;
-
-num2 = n2;
-
-}
-
-else{
-
-num1 = n2;
-
-num2 = n1;
-
-}
-
-printf("Soma: ");
-
-while (i != num1){
-
-soma = soma + num2;
-
-printf("+ %d ",num2);
-
-i = i + 1;
-
-}
-
-printf("= %d", soma);
-
-return 0;
-
-}
+    int valor, i, senha2, senha1 = 1234;
+    char login1[]="admin";
+    char login2;            
+    
+    while (valor != 3){
+        
+    printf ("------------------------------------------------------------\n");
+    printf ("Digite um dos números para acessar as opções.\n");
+    printf ("Acessar login e senha: 1\n");
+    printf ("Trocar senha: 2\n");
+    printf ("Sair: 3\n");
+    printf ("------------------------------------------------------------\n");
+        
+        printf ("Digite um número de 1 a 3 para acessar o menu: ");
+        scanf ("%d", &valor);
+        
+        switch (valor){
+            
+            case 1:
+            for (i = 0; i <= 3; i++){
+            printf ("Digite seu login: ");
+            scanf ("%d", &senha2);
+                if (senha1 == senha2){
+                    printf ("Acesso concedido.\n");
+                    break;
+                } if (i >= 3){
+                    printf ("Atingiu o limite de tentativas de login.\n");
+                } else{
+                    printf ("Acesso negado.\n");
+                }
+            }
+            break;
+            
+            case 2:
+            printf ("\nDigite sua nova senha: ");
+            scanf ("%d", &senha1);
+            break;
+            
+            case 3:
+            printf ("Você saiu.\n");
+            break;
+            
+            default:
+            printf ("\nTente de novo.\n");
+            break;
+        }
+    }
+    
+    return 0;
+}       

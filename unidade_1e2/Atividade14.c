@@ -1,44 +1,55 @@
 /******************************************************************************
 
-NOME: ADEMAR ALVES CASTRO FILHO
-MATRÍCULA: 2022002444
+NOME: ADEMAR
+MATRÍCULA: 2022******
 TURMA: TADS 2022/1
 
 *******************************************************************************/
 #include <stdio.h>
 
-int main()
+    int main()
 {
-    long int fibonacci(int n);
-    int n;
-    printf ("Escolha a posicao: ");
-    scanf("%d", &n);
-    printf("Posicao %d da sequencia de fibonnaci: %d", n, fibonacci(n));
+
+int num1, num2, n1, n2, soma = 0, i = 0;
+
+printf("Digite o primeiro numero: ");
+
+scanf(" %d", &n1);
+
+printf("Digite o segundo numero: ");
+
+scanf(" %d", &n2);
+
+if(n1 < n2){
+
+num1 = n1;
+
+num2 = n2;
+
 }
 
-long fibonacci(int n)
-{
-    int cont;
-    long int x = 0, z = 1;
-    
-    if(n % 2 == 0)
-    {
-        for(cont = 2; cont != n; cont = cont + 2)
-        {
-            x = x + z;
-            z = x + z;
-        }
-        return z;
-    }
-    else
-    {
-        for(cont = 1; cont != n; cont = cont + 2)
-        {
-            x = x + z;
-            z = x + z;
-        }
-            return x;
-    }
-    
-    return 0;
-} 
+else{
+
+num1 = n2;
+
+num2 = n1;
+
+}
+
+printf("Soma: ");
+
+while (i != num1){
+
+soma = soma + num2;
+
+printf("+ %d ",num2);
+
+i = i + 1;
+
+}
+
+printf("= %d", soma);
+
+return 0;
+
+}

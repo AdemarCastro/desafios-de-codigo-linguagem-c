@@ -1,7 +1,7 @@
 /******************************************************************************
 
-NOME: ADEMAR ALVES CASTRO FILHO
-MATRÍCULA: 2022002444
+NOME: ADEMAR
+MATRÍCULA: 2022******
 TURMA: TADS 2022/1
 
 2) Imprimir de 1 a 100 na tela sendo que apenas 10 números por linha.

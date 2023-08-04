@@ -1,5 +1,5 @@
-/*  NOME: ADEMAR ALVES CASTRO FILHO
-    MATRÍCULA: 2022002444
+/*  NOME: ADEMAR
+    MATRÍCULA: 2022******
     TURMA: TADS 2022/1
 */
 #include<stdio.h>

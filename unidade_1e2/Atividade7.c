@@ -1,24 +1,24 @@
 /******************************************************************************
 
-NOME: ADEMAR ALVES CASTRO FILHO
-MATRÍCULA: 2022002444
+NOME: ADEMAR
+MATRÍCULA: 2022******
 TURMA: TADS 2022/1
 
-1) Ler um número inteiro maior que zero.
-Tem que exibir os 10 números anteriores 
-e posteriores ao n digitado.
+2) Imprimir de 1 a 100 na tela sendo que apenas 10 números por linha.
 *******************************************************************************/
 #include <stdio.h>
 
 int main(){
-    int i, a;
+    int num = 1;
+
+    printf("\n");
+
+    if (num > 0  && num < 100)
+        while (num > 0 && num < 101) {
+            printf("%4d %4d %4d %4d %4d %4d %4d %4d %4d %4d \n", num, num + 1, num + 2, num + 3, num + 4, num + 5, num + 6, num + 7, num + 8, num + 9);
+            num+=10; 
+        }
     
-    for(a=1; a<10; a++){
-        printf("\n%d\n", a);
-    }
     
-    for(i=10; i<21; i++){
-        printf("\n%d\n", i);
-    }
     return 0;
-}
+} 
