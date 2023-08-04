@@ -4,7 +4,7 @@ NOME: ADEMAR
 MATRÍCULA: 2022******
 TURMA: TADS 2022/1
 
-Exercício 06 - Unidade 3 - Criar uma tabuada utilizando a função void e o ponteiro.
+    Atividade 24) Nada mais é que a resolução do desafio 23, caso tenha dificuldade pode olhar a resposta abaixo.
 
 *******************************************************************************/
 

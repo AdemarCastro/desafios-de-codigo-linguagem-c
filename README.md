@@ -1,12 +1,12 @@
-# Desafios de Código e Lógica de Programação em Linguagem C
+# Repositório de Desafios de Código e Lógica de Programação em Linguagem C
 
-Este projeto contém uma coleção de desafios de código e lógica de programação desenvolvidos durante a disciplina de Algoritmos e Técnicas de Programação. Cada desafio representa um problema específico que requer habilidades de programação para serem resolvidos.
+Este projeto contém uma coleção de desafios de código e lógica de programação desenvolvidos durante a disciplina de Algoritmos e Técnicas de Programação. Cada desafio representa um problema específico que requer habilidades de programação para serem resolvidos. Este repositório é meu e todos os desafios aqui foram resolvidos por mim na disciplina de ATP. No entanto, eu pensei em ir além e criar este repositório com adições de desafios para cada atividade desenvolvida na sala para que qualquer um possa clonar esse repositório e os resolver. Espero que vocês gostem, não são desafios dificeis, o mais complicado é entender o código raiz do desafio. O mais legal é que você vai entender muitos códigos interessantes como comandas em C e algoritmos que trabalham com Matrizes enquanto resolve desafios de implementação. Espero que gostem! 
 
 ## Imagem do Projeto
 
 <img src="imgs/img-readme.png" width="70%">
 
-## Explicação dos Desafios
+## A explicação dos desafios abaixo se refere aos algoritmos originais que desenvolvi durante a disciplina, fique à vontade para ler e entender mais sobre os códigos raízes dos desafios
 
 ### Desafio 1: Dados Pessoais
 

@@ -4,7 +4,42 @@ NOME: ADEMAR
 MATRÍCULA: 2022******
 TURMA: TADS 2022/1
 
-2) Imprimir de 1 a 100 na tela sendo que apenas 10 números por linha.
+    Atividade 15)
+
+    O código fornecido solicita ao usuário que digite um login e uma senha e verifica se eles correspondem aos valores pré-definidos (MEU_LOGIN e MINHA_SENHA). Vamos tornar o programa mais seguro, permitindo que o usuário tenha três tentativas para digitar corretamente o login e a senha. Além disso, ao digitar a senha, vamos escondê-la da tela para evitar que seja visível.
+
+    Seu desafio é implementar uma versão revisada deste código, que permita ao usuário ter três tentativas para digitar o login e a senha corretamente. O programa deve solicitar ao usuário que insira o login e a senha e, em seguida, verificar se correspondem aos valores pré-definidos (MEU_LOGIN e MINHA_SENHA). O programa deve permitir ao usuário digitar a senha sem exibi-la na tela e limitar o número de tentativas a três.
+
+    Dicas:
+
+    1. Implemente um loop "for" para permitir ao usuário ter três tentativas para digitar o login e a senha corretamente.
+
+    2. Use uma variável contador para acompanhar o número de tentativas e termine o loop "for" se o usuário acertar o login e a senha ou esgotar o número de tentativas.
+
+    3. Use a função `strcmp()` da biblioteca `string.h` para comparar o login e a senha digitados pelo usuário com os valores pré-definidos (MEU_LOGIN e MINHA_SENHA).
+
+    4. Para evitar que a senha seja visível ao digitar, você pode usar a função `getch()` da biblioteca `conio.h` para ler cada caractere da senha individualmente, sem exibi-los na tela.
+
+    Exemplo de saída do programa:
+
+    ```
+    LOGIN: Usuario
+    SENHA: ****
+    Senha incorreta. Tentativas restantes: 2
+    SENHA: ****
+    Senha incorreta. Tentativas restantes: 1
+    SENHA: ****
+    Senha incorreta. Tentativas restantes: 0
+    Acesso bloqueado!
+    ```
+
+    ```
+    LOGIN: MEU_LOGIN
+    SENHA: ****
+    Logado
+    ```
+
+    Lembre-se de comentar o código para explicar o que cada parte faz, tornando-o mais claro e compreensível. Boa sorte no desafio de implementação!
 *******************************************************************************/
 
 #include <stdio.h>

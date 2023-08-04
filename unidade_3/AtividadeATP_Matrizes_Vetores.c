@@ -1,18 +1,34 @@
 /*  Nome Autor: ADEMAR
     Data: 22/06/2022
-    EXERCÍCIOS DE ATP: 
     
-    1. Sobre VETOR
+    Atividade Final - Criptografando uma mensagem secreta!
 
-    a) Tamanho do vetor é 200, preencher com números reais maiores que 800.
-    b) Tamanho do vetor é 50, preencher automaticamente com números inteiros aleatórios.
+    O objetivo deste desafio é adicionar uma nova opção ao menu do programa que permita ao usuário criptografar uma mensagem secreta usando um algoritmo simples. A mensagem será fornecida pelo usuário e deverá ser criptografada utilizando um método de substituição.
 
- 
-    2. MATRIZ
+    Dicas para o usuário resolver o problema:
+    1. Adicione uma nova opção ao menu (por exemplo, opção 6) para criptografar a mensagem.
+    2. Solicite ao usuário que digite a mensagem que deseja criptografar.
+    3. Crie um algoritmo de substituição para criptografar a mensagem. Neste algoritmo, cada letra da mensagem deve ser substituída por outra letra ou símbolo. Você pode escolher o método de substituição que preferir, mas é importante que seja reversível, para que a mensagem possa ser descriptografada mais tarde.
+    4. Exiba a mensagem criptografada na tela para o usuário.
 
-    a) Definir duas matrizes 10 x10 de inteiros, preencher  com números aleatórios, realizar a soma entre as duas matrizes e exibir o resultado
-    b)Definir uma matriz 5x5 de inteiros, solicitar do usuário que digite a quantidade de elementos, e preencher automaticamente da forma que está no slide. 
+    Exemplo de saída do desafio resolvido:
+    ```
+    ---------------------------------------------------------------------------------------
+    1 - Vetor de tamanho 200, preencher com números reais maiores que 800.
+    2 - Vetor de tamanho 50, preencher automaticamente com números inteiros aleatórios.
+    3 - Definir duas matrizes 10 x10 de inteiros, preencher  com números aleatórios, realizar a soma entre as duas matrizes e exibir o resultado.
+    4 - Definir uma matriz 5x5 de inteiros, solicitar do usuário que digite a quantidade de elementos, e preencher automaticamente da forma que está no slide.
+    5 - Sair do programa.
+    6 - Criptografar uma mensagem secreta.
+    ---------------------------------------------------------------------------------------
+    Digite um número de 1 a 6 para acessar as opções do Menu acima: 6
 
+    Digite a mensagem que deseja criptografar: Hello World!
+
+    Mensagem criptografada: H3ll0 W0rld!
+    ```
+
+    Neste exemplo, o algoritmo de substituição utilizado foi simples, onde cada letra "e" foi substituída pelo número "3" e cada letra "o" foi substituída pelo número "0". O objetivo é apenas fornecer um exemplo básico, e o usuário pode criar algoritmos mais complexos para a substituição. Lembre-se de fornecer alguma dica ou informação sobre como descriptografar a mensagem, caso o usuário queira recuperar a mensagem original.
 
 */
 #include<stdio.h>

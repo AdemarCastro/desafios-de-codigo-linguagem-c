@@ -1,7 +1,38 @@
 /*  NOME: ADEMAR
     MATRÍCULA: 2022******
     TURMA: TADS 2022/1
+
+    Atividade 01)
+    
+    Crie um programa em linguagem C que solicite ao usuário algumas informações pessoais e apresente uma mensagem com os dados fornecidos. O programa deve calcular automaticamente a idade do aluno com base no ano de nascimento fornecido e assumindo que o ano atual é 2022.
+
+    Instruções:
+
+    Solicite ao usuário as seguintes informações:
+
+    Nome do aluno;
+    Nome da cidade em que o aluno mora;
+    Sexo do aluno;
+    Dia de nascimento do aluno;
+    Mês de nascimento do aluno;
+    Ano de nascimento do aluno.
+    Calcule a idade do aluno utilizando o ano de nascimento fornecido e o ano atual (2022).
+
+    Exiba uma mensagem formatada contendo as informações fornecidas pelo usuário e a idade calculada. A mensagem deve seguir o padrão:
+    "Nome: [NOME]
+    Cidade: [CIDADE]
+    Sexo: [SEXO]
+    Data de Nascimento: [DIA]/[MÊS]/[ANO]
+    Idade: [IDADE] anos."
+
+    Dê liberdade ao aluno para adicionar melhorias ao programa, como validação das entradas, tratamento de erros e uma apresentação mais elaborada dos dados.
+
+    Teste o programa com diferentes valores de entrada para garantir seu correto funcionamento.
+
+    Observação: O programa pode ser executado sem a necessidade de aguardar uma tecla ser pressionada antes de finalizar.
 */
+
+/* Solução */
 #include<stdio.h>
 #include<conio.h>
 int main(void)
